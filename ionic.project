@@ -1,0 +1,12 @@
+{
+  "name": "recetame",
+  "app_id": "594871c7",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}
