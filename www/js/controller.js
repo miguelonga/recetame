@@ -5,7 +5,8 @@ fbook.controller('addController',function($scope,$firebaseArray,$state,recipeSer
         $scope.newRec.$add({
             recipeName: $scope.recName,
             recipeIngredients: $scope.recIngredients,
-            recipeDirections: $scope.recDirections
+            recipeDirections: $scope.recDirections,
+            recipeGroups: $scope.recGroups
         });
         $state.go('home');
     };
